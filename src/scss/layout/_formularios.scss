@@ -1,0 +1,41 @@
+.formulario {
+  p {
+    font-size: 1.4rem;
+    color: $grisOscuro;
+    margin: 2rem 0 0 0;
+  }
+
+  legend {
+    font-size: 2rem;
+    color: $grisOscuro;
+  }
+
+  label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: $bold;
+  }
+  input:not([type="submit"]),
+  textarea,
+  select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: $blanco;
+    border: 1px solid $grisClaro;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  .forma-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  input[type="radio"] {
+    margin: 0;
+    width: auto;
+  }
+}
+
+//2:04:56 falta solucionar cómo se ven los inputs del formulario, tienen un borde raro y la forma //contacto no está bien alineada
