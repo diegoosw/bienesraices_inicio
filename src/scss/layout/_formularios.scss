@@ -22,10 +22,15 @@
     display: block;
     width: 100%;
     background-color: $blanco;
-    border: 1px solid $grisClaro;
+    border: 1px solid $grisOscuro;
     border-radius: 1rem;
     margin-bottom: 2rem;
   }
+
+  textarea {
+    height: 20rem;
+  }
+
   .forma-contacto {
     max-width: 30rem;
     display: flex;
@@ -38,4 +43,4 @@
   }
 }
 
-//2:04:56 falta solucionar cómo se ven los inputs del formulario, tienen un borde raro y la forma //contacto no está bien alineada
+
