@@ -1,0 +1,5 @@
+# Query: .html
+# Flags: WordMatch
+# Including: .php
+# ContextLines: 1
+
