@@ -38,7 +38,10 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     $estacionamiento=mysqli_real_escape_string($db,$_POST['estacionamiento']);
     $vendedor=mysqli_real_escape_string($db,$_POST['vendedor']);
     $creado=date('Y/m/d');
-
+    //Agregar files hacia una variable
+    $imagen=$_FILES['imagen'];
+    var_dump($imagen);
+    exit;
     if(!$titulo){
         $errores[]="Debes agregar un titulo";
     }
