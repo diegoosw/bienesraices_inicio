@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"admin.css","sourcesContent":[]}
+{"version":3,"sources":["internas/admin.scss","internas/admin.css"],"names":[],"mappings":"AAAA,QAGI,aAAA,CAFA,YAAA,CACA,iBCEJ,CDCI,cACI,oBCCR","file":"admin.css","sourcesContent":[".alerta{\r\n    padding: 5rem;\r\n    text-align: center;\r\n    margin:1rem 0;\r\n    \r\n    &.error{\r\n        background-color: red;\r\n    }\r\n}",".alerta {\n  padding: 5rem;\n  text-align: center;\n  margin: 1rem 0;\n}\n.alerta.error {\n  background-color: red;\n}"]}
