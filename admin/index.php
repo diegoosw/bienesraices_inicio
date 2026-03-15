@@ -75,7 +75,7 @@
           </tr>
         </thead>
 
-        <tbody><!-- Mostrar los resultados -->
+        <tbody class="tbody"><!-- Mostrar los resultados -->
           <?php while($propiedad = mysqli_fetch_assoc($resultadoConsulta)): ?>
           <tr>
             <td> <?php echo $propiedad['id_propiedad']; ?> </td>

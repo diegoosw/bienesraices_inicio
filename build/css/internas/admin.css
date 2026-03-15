@@ -1,2 +1,5 @@
 .alerta{margin:1rem 0;padding:5rem;text-align:center}.alerta.error{background-color:red}
 /*# sourceMappingURL=admin.css.map */
+td {
+    color: aliceblue;
+}
