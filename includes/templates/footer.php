@@ -1,7 +1,7 @@
 <?php
 // Elige tu ruta dependiendo de tu servidor local
-//$ruta = '/'; // Usa esta si usas Laragon (.test)
-$ruta = '/bienesraices_inicio/'; // usa esta si usas XAMPP (localhost)
+$ruta = '/'; // Usa esta si usas Laragon (.test)
+//$ruta = '/bienesraices_inicio/'; // usa esta si usas XAMPP (localhost)
 ?>
 
 <footer class="footer seccion">
