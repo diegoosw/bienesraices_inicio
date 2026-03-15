@@ -62,7 +62,7 @@
       <?php endif; ?>
       
       
-      <a href="/admin/propiedades/crear.php" class="boton boton-verde">Nueva propiedad</a>
+      <a href="<?php echo URL_PROYECTO; ?>/admin/propiedades/crear.php" class="boton boton-verde">Nueva Propiedad</a>
       
       <table class="propiedades">
         <thead>
